@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="CountryNK">North Korea</string>
+    <string name="GimnNK">Achimŭn pinnara i kangsan\nŬngŭme chawŏndo kadŭkhan\nSamchŏlli arŭmdaun nae choguk\nPanmannyŏn oraen ryŏksaë\nCallanhan munhwaro charanan\nSŭlgiron inminŭi i yŏnggwang\nMomgwa mam ta pachyŏ i chosŏ Kiri pattŭse</string>
+
+    <string name="CountryV">Việt Nam</string>
+    <string name="GimnV">Đoàn quân Việt Nam đi chung lòng cứu quốc
+\nBước chân dồn vang trên đường gập ghềnh xa
+\nCờ in máu chiến thắng mang hồn nước,
+\nSúng ngoài xa chen khúc quân hành ca.
+\nĐường vinh quang xây xác quân thù,
+\nThắng gian lao cùng nhau lập chiến khu.</string>
+
+    <string-array name="activity_options">
+        <item>North Korea</item>
+        <item>Vetnam</item>
+    </string-array>
 </resources>
