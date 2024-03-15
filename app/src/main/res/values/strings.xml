@@ -11,8 +11,58 @@
 \nĐường vinh quang xây xác quân thù,
 \nThắng gian lao cùng nhau lập chiến khu.</string>
 
+    <string name="sendOtherApp">Send Message to other apps</string>
+    <string name="chooser">Send message via...</string>
+
+    <string name="GimnL"> ຊາດລາວຕັ້ງແຕ່ໃດມາ
+    ລາວທຸກທົ່ວຫນ້າເຊີດຊູສຸດໃຈ
+    ຮ່ວມແຮງຮ່ວມຈິດຮ່ວມໃຈ
+    ສາມັກຄີກັນເປັນກຳລັງດຽວ
+    ເດັດດ່ຽວພ້ອມກັນກ້າວຫນ້າ
+    ບູຊາຊູກຽດຂອງລາວ
+    ສົ່ງເສີມໃຊ້ສິດເປັນເຈົ້າ
+    ລາວທຸກຊົນເຜົ່າສະເໝີພາບກັນ
+    ບໍ່ໃຫ້ພວກຈັກກະພັດ
+    ແລະພວກຂາຍຊາດເຂົ້າມາລົບກວນ
+    ລາວທັງມວນຊູເອກະລາດ
+    ອິດສະຫລະພາບຂອງຊາດລາວໄວ້
+    ຕັດສິນໃຈສູ້ຊີງເອົາໄຊ
+    ພາຊາດກ້າວໄປສູ່ຄວາມວັດທະນາ.</string>
+
+
+    <string name="GimnK"> Ак мөңгүлүү аска зоолор, талаалар,
+    Элибиздин жаны менен барабар.
+    Сансыз кылым Ала-Тоосун мекендеп,
+    Сактап келди биздин ата-бабалар.
+    Кайырмасы:
+    Алгалай бер, кыргыз эл,
+    Азаттыктын жолунда.
+    Өркүндөй бер, өсө бер,
+    Өз тагдырың колунда.
+    Байыртадан бүткөн мүнөз элиме,
+    Досторуна даяр дилин берүүгө.
+    Бул ынтымак эл бирдигин ширетип,
+    Бейкуттукту берет кыргыз жерине.
+    Кайырмасы:
+    Аткарылып элдин үмүт, тилеги,
+    Желбиреди эркиндиктин желеги.
+    Бизге жеткен ата салтын, мурасын,
+    Ыйык сактап урпактарга берели.</string>
+
+    <string name="GimnZ"> Mungu ibariki Afrika
+Wabariki Viongozi wake
+Hekima Umoja na Amani
+Hizi ni ngao zetu
+Afrika na watu wake</string>
+
+    <string name="send">Send Message</string>
+    <string name="hint">Enter a message</string>
+
     <string-array name="activity_options">
         <item>North Korea</item>
         <item>Vetnam</item>
+        <item>Laos</item>
+        <item>Kyrgyzstan</item>
+        <item>Zanzibar</item>
     </string-array>
 </resources>

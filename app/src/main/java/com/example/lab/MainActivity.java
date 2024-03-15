@@ -2,15 +2,16 @@ package com.example.lab;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.constraintlayout.widget.ConstraintLayout;
 
+import android.content.Intent;
 import android.content.res.Resources;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Spinner;
 import android.widget.TextView;
-import android.widget.LinearLayout;
 import com.example.myapplication.R;
 
 public class MainActivity extends AppCompatActivity {
@@ -63,7 +64,24 @@ public class MainActivity extends AppCompatActivity {
                         constraintLayout = findViewById(R.id.constraintLayout);
                         constraintLayout.setBackgroundResource(R.drawable.big_106375);
                         break;
-
+                    case "Laos":
+                        imageViewFlag.setImageResource(R.drawable.jgg);
+                        AnthemText.setText(resources.getString(R.string.GimnL));
+                        constraintLayout = findViewById(R.id.constraintLayout);
+                        constraintLayout.setBackgroundResource(R.drawable.gklll);
+                        break;
+                    case "Kyrgyzstan":
+                        imageViewFlag.setImageResource(R.drawable.kirgizia);
+                        AnthemText.setText(resources.getString(R.string.GimnK));
+                        constraintLayout = findViewById(R.id.constraintLayout);
+                        constraintLayout.setBackgroundResource(R.drawable.de);
+                        break;
+                    case "Zanzibar":
+                        imageViewFlag.setImageResource(R.drawable.zanzibar);
+                        AnthemText.setText(resources.getString(R.string.GimnZ));
+                        constraintLayout = findViewById(R.id.constraintLayout);
+                        constraintLayout.setBackgroundResource(R.drawable.gfsfdf);
+                        break;
                     default:
                         break;
                 }
@@ -74,5 +92,23 @@ public class MainActivity extends AppCompatActivity {
                 // Дія, яка відбувається, коли нічого не вибрано
             }
         });
+
+    }
+    public void onSendMessage(View view) {
+        EditText messageView = (EditText) findViewById(R.id.message);
+        String messageText = messageView.getText().toString();
+        Intent intent = new Intent (MainActivity.this, ReceiveMessageActivity.class);
+        intent.putExtra(ReceiveMessageActivity.EXTRA_MESSAGE, messageText);
+        startActivity(intent);
+    }
+    public void onSendMessageOther(View view){
+        EditText messageView = (EditText)findViewById(R.id.message);
+        String messageText = messageView.getText().toString();
+        Intent intent = new Intent(Intent.ACTION_SEND);
+        intent.setType("text/plain");
+        intent.putExtra(Intent.EXTRA_TEXT, messageText);
+        String chooserTitle = getString(R.string.chooser);
+        Intent chosenIntent = Intent.createChooser(intent, chooserTitle);
+        startActivity(chosenIntent);
     }
 }
