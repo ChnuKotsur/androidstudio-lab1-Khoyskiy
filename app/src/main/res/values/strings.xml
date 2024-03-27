@@ -58,6 +58,11 @@ Afrika na watu wake</string>
     <string name="send">Send Message</string>
     <string name="hint">Enter a message</string>
 
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="reset">Reset</string>
+
+
     <string-array name="activity_options">
         <item>North Korea</item>
         <item>Vetnam</item>
